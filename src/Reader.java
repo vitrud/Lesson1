@@ -6,7 +6,7 @@ public class Reader {
     
     public void Scan(){
     	n1 = JOptionPane.showInputDialog("Введите первое001 число");
-    	n2 = JOptionPane.showInputDialog("Ââåäèòå âòîðîå ÷èñëî");
+    	n2 = JOptionPane.showInputDialog("Введите второе число");
     	i = Integer.parseInt(n1);
     	k = Integer.parseInt(n2);
     }
