@@ -5,14 +5,14 @@ public class Reader {
     String n1, n2;
     
     public void Scan(){
-    	n1 = JOptionPane.showInputDialog("Введите первое число");
-    	n2 = JOptionPane.showInputDialog("Введите второе число");
+    	n1 = JOptionPane.showInputDialog("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ1 С‡РёСЃР»Рѕ");
+    	n2 = JOptionPane.showInputDialog("Г‚ГўГҐГ¤ГЁГІГҐ ГўГІГ®Г°Г®ГҐ Г·ГЁГ±Г«Г®");
     	i = Integer.parseInt(n1);
     	k = Integer.parseInt(n2);
     }
     
     public void Scan(int a, int b){
-    	JOptionPane.showMessageDialog(null, "Теперь ваше первое число = "+ a);
-    	JOptionPane.showMessageDialog(null, "Теперь ваше второе число = "+ b);
+    	JOptionPane.showMessageDialog(null, "Г’ГҐГЇГҐГ°Гј ГўГ ГёГҐ ГЇГҐГ°ГўГ®ГҐ Г·ГЁГ±Г«Г® = "+ a);
+    	JOptionPane.showMessageDialog(null, "Г’ГҐГЇГҐГ°Гј ГўГ ГёГҐ ГўГІГ®Г°Г®ГҐ Г·ГЁГ±Г«Г® = "+ b);
     }
 }
